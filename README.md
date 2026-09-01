@@ -7,7 +7,7 @@ Azure by using Azure Functions, Azure Service Bus, Cosmos DB, Azure Blob Storage
 
 ![diagram](images/Architecture_Cartoonify.png)
 
-### Application Flow
+### 📊 Application Flow
 ![flow](images/cartoonify_Workflow.png)
 
 ### 🔑 Key Features
@@ -34,8 +34,8 @@ Azure by using Azure Functions, Azure Service Bus, Cosmos DB, Azure Blob Storage
  cartoon style, and a **Service Bus–driven worker** calls the **OpenAI API**
  (`gpt-image-1`) to generate a cartoonified version. Results are stored in **Blob
  Storage** and accessed via short-lived SAS URLs.
-
- Technicaly :
+>
+> Technicaly :
  This follows a serverless async pattern — the HTTP API accepts a job and returns immediately, while a Function App worker does the heavy lifting (Pillow for image normalization, OpenAI for generation).
 
 
