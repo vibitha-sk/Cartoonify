@@ -1,3 +1,7 @@
+# Cartoonify
+
+> A fully automated serverless image-to-cartoon service built on Azure.
+
 
 ### 📌 Overview
 This project is a demonstration of a fully automated, cloud-native, **serverless image-to-cartoon service** built on
