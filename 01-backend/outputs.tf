@@ -53,5 +53,5 @@ output "entra_client_id" {
 }
 
 output "entra_authority" {
-  value = "https://${var.entra_tenant_name}.ciamlogin.com/${var.entra_tenant_id}"
+  value = "https://${split(".", var.entra_tenant_name)[0]}.ciamlogin.com/${var.entra_tenant_id}"
 }

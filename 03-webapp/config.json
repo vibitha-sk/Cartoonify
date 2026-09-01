@@ -1,0 +1,6 @@
+{
+  "authority":   "https://cartoonify.ciamlogin.com/766e13d5-8ad4-4d10-a43f-94c516cbedf8",
+  "clientId":    "25f5efd3-0cb6-4add-804f-66c461bf2ef7",
+  "redirectUri": "https://cartoonweb8aa82847.z19.web.core.windows.net/callback.html",
+  "apiBaseUrl":  "https://cartoonify-func-2732e32e.azurewebsites.net/api"
+}
