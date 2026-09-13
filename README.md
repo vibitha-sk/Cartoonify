@@ -161,3 +161,8 @@ export OPENAI_API_KEY="<openai-api-key>"
 
 ```
 
+
+### 🤝©️ Credits
+
+This project was inspired by [aws-cartoonify](https://github.com/mamonaco1973/aws-cartoonify) by @mamonaco1973. I’d like to thank **Mike Monaco** for the original core idea and code, which I used solely for learning and educational purposes as a reference and built/deployed my own version on Azure as part of my personal practice — the implementation here reflects my own changes and additions.
+
